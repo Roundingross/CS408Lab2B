@@ -104,7 +104,6 @@
             android:id="@+id/convertButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onClick"
             android:text="@string/convert"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -112,8 +111,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.286"
-            tools:ignore="UsingOnClickInXml" />
+            app:layout_constraintVertical_bias="0.286" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
